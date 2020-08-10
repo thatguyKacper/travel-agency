@@ -1,0 +1,23 @@
+{
+  "orders": [
+    {
+      "0": "O",
+      "1": "P",
+      "2": "T",
+      "3": "I",
+      "4": "O",
+      "5": "N",
+      "6": "S",
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$51,381",
+      "id": 1
+    }
+  ]
+}
