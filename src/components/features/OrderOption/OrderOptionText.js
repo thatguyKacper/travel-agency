@@ -17,6 +17,7 @@ const OrderOptionText = (props) => {
 
   );
 };
+
 OrderOptionText.propTypes = {
   currentValue: PropTypes.string,
   type: PropTypes.string,
