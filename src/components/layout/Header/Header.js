@@ -1,11 +1,12 @@
 import React from 'react';
-import {NavLink, Link} from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import styles from './Header.scss';
 import Icon from '../../common/Icon/Icon';
 import { Grid, Row, Col } from 'react-flexbox-grid';
+import Contact from '../../features/Contact/Contact';
 
 class Header extends React.Component {
-  render(){
+  render() {
     return (
       <header className={styles.component}>
         <Grid>
@@ -26,9 +27,10 @@ class Header extends React.Component {
                 <NavLink to='/info' activeClassName='active'>Contact</NavLink>
               </nav>
             </Col>
-            <Col md={3} lg={2}>
+            <Col md={3} lg={3}>
               <div className={styles.contact}>
-                <Icon name='phone' /><span>678.243.8455</span>
+                <Icon name='phone' />
+                <Contact />
               </div>
             </Col>
           </Row>
